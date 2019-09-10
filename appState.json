@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "98c37ee0-5b15-4731-8c58-69a5a84c4d53": {
+        "id": "98c37ee0-5b15-4731-8c58-69a5a84c4d53",
+        "parent": null,
+        "name": "rrr",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9023d062-cea1-4db3-930e-bccffcad8c69"
+        ],
+        "isRemovable": false,
+        "filePath": "rrr"
+      },
+      "9023d062-cea1-4db3-930e-bccffcad8c69": {
+        "id": "9023d062-cea1-4db3-930e-bccffcad8c69",
+        "parent": "98c37ee0-5b15-4731-8c58-69a5a84c4d53",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "rrr/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "98c37ee0-5b15-4731-8c58-69a5a84c4d53",
+    "openFiles": [
+      "9023d062-cea1-4db3-930e-bccffcad8c69"
+    ],
+    "currentFileId": "9023d062-cea1-4db3-930e-bccffcad8c69",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "rrr",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568106383117
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "rrr",
+      "url": "https://github.com/Indunil1992/rrr"
+    }
+  }
+}
